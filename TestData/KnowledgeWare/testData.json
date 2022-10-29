@@ -1,0 +1,29 @@
+{ "KnowledgeWare": 
+	{
+    "userCreationWorkFlow":  
+    	[
+        	{ 
+        		"TC": "employeeFlow",
+        		"ba":"/user",
+		        "payload": "",
+		        "userName":"Rajeev",
+		        "endPoint":"/signup"
+      		},
+      		{ 
+        		"TC": "supplierFlow",
+        		"basePath":"/user",
+		        "payload": "",
+		        "userName":"Azhar"
+      		}
+    	],
+    "commonForProject": 
+    	{
+	      "nutanHospitalURL": "https://nursingdemo.medifox.in.net/Account/Login",
+	      "knowledgewareURL":"https://www.knowledgeware.in/final.html",
+	      "login": {
+		      "userName": "admin",
+		      "password": "admin"
+       }
+    }
+  }
+}
