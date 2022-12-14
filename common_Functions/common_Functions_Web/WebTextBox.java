@@ -22,7 +22,7 @@ public class WebTextBox {
 	}
 	/*
 	 * Purpose:- As a user I want to clear the text from text box.
-	 * Input param:- WebElement
+	 * Input parameter:- WebElement
 	 * Return type:- none
 	 */
 	public static void clearTextBox(WebElement textBox) {
