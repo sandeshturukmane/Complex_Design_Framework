@@ -8,7 +8,7 @@ import com.relevantcodes.extentreports.LogStatus;
 public class WebTextBox {
 	/*
 	 * Purpose:- As a user I want to enter a text into text box.
-	 * Input param:- WebElement, String
+	 * Input parameter:- WebElement, String
 	 * Return type:- none
 	 */
 	public static void sendInput(WebElement textBox, String text, ExtentTest logger, String fieldName) {
@@ -22,7 +22,7 @@ public class WebTextBox {
 	}
 	/*
 	 * Purpose:- As a user I want to clear the text from text box.
-	 * Input param:- WebElement
+	 * Input parameter:- WebElement
 	 * Return type:- none
 	 */
 	public static void clearTextBox(WebElement textBox) {
